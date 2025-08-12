@@ -1,0 +1,23 @@
+# .github/workflows/metrics.yml
+name: GitHub Metrics
+on:
+  schedule: [{ cron: "0 0 * * *" }]
+  workflow_dispatch:
+permissions: { contents: write }
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: DanubiaPereira
+          template: classic
+          base: header, activity, repositories
+          config_timezone: America/Sao_Paulo
+          plugins: languages, habits, achievements, isocalendar
+          languages: yes
+          languages_threshold: 1%
+          output_action: commit
+          committer_branch: main
+          committer_message: "chore: update metrics"
