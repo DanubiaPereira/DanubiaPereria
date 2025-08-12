@@ -46,6 +46,10 @@ Busco oportunidades **estágio/júnior** para colaborar, aprender e gerar valor.
 ### 📊 Métricas do GitHub
 
 <p align="center">
+  <img src="./github-metrics.svg?t=1" alt="GitHub Metrics">
+</p>
+
+<p align="center">
   <img src="./profile-summary-card-output/dracula/0-profile-details.svg" alt="Profile Details">
 </p>
 
@@ -69,3 +73,4 @@ Busco oportunidades **estágio/júnior** para colaborar, aprender e gerar valor.
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=DanubiaPereira&theme=dracula&no-bg=true&no-frame=true&row=1&column=6" alt="GitHub Trophies"/>
 </p>
+
