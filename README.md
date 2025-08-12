@@ -45,24 +45,24 @@ Busco oportunidades **estágio/júnior** para colaborar, aprender e gerar valor.
 ---
 
 ### 📊 Métricas do GitHub
+
+<!-- Summary Cards (arquivos gerados pela Action, já no seu repo) -->
+![Profile Details](./profile-summary-card-output/dracula/0-profile-details.svg)
+
+![Stats](./profile-summary-card-output/dracula/3-stats.svg)
+![Repos per language](./profile-summary-card-output/dracula/1-repos-per-language.svg)
+![Most commit language](./profile-summary-card-output/dracula/2-most-commit-language.svg)
+
+<!-- Activity Graph local (só aparece se você rodou a Action estática e criou assets/activity-graph.svg) -->
+<!-- Se não tiver, apague esta linha ou troque pelo endpoint externo -->
+![Activity Graph](./assets/activity-graph.svg)
+
+<!-- Snake (fica em outro branch, então aqui precisa ser absoluto mesmo) -->
 <p align="center">
-<!-- Summary Cards estáticos (gerados via Action) -->
-[![](https://raw.githubusercontent.com/DanubiaPereira/DanubiaPereria/main/profile-summary-card-output/dracula/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-[![](https://raw.githubusercontent.com/DanubiaPereira/DanubiaPereria/main/profile-summary-card-output/dracula/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/DanubiaPereira/DanubiaPereria/main/profile-summary-card-output/dracula/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-[![](https://raw.githubusercontent.com/DanubiaPereira/DanubiaPereria/main/profile-summary-card-output/dracula/3-stats.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/DanubiaPereira/DanubiaPereria/main/profile-summary-card-output/dracula/4-productive-time.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+  <img src="https://raw.githubusercontent.com/DanubiaPereira/DanubiaPereira/output/snake.svg?sanitize=true" alt="Snake animation"/>
 </p>
 
-<!-- Activity Graph (externo; se usar versão estática, troque para assets/activity-graph.svg) -->
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DanubiaPereira&theme=react-dark&hide_border=true&area=true" alt="Activity Graph"/>
-</p>
 
-<!-- Snake (publicada no branch output) -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/DanubiaPereira/DanubiaPereira/output/snake.svg" alt="Snake animation"/>
-</p>
-
----
 
 ### 🏆 Troféus
 <p align="center">
