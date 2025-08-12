@@ -45,15 +45,11 @@ Busco oportunidades **estágio/júnior** para colaborar, aprender e gerar valor.
 ---
 
 ### 📊 Métricas do GitHub
+<p align="center">
 <!-- Summary Cards estáticos (gerados via Action) -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/DanubiaPereira/DanubiaPereira/main/profile-summary-card-output/dracula/0-profile-details.svg" alt="Profile Details"/>
-</p>
-
-<p align="center">
-  <img height="170" src="https://raw.githubusercontent.com/DanubiaPereira/DanubiaPereira/main/profile-summary-card-output/dracula/3-stats.svg" alt="Stats"/>
-  <img height="170" src="https://raw.githubusercontent.com/DanubiaPereira/DanubiaPereira/main/profile-summary-card-output/dracula/1-repos-per-language.svg" alt="Repos per language"/>
-  <img height="170" src="https://raw.githubusercontent.com/DanubiaPereira/DanubiaPereira/main/profile-summary-card-output/dracula/2-most-commit-language.svg" alt="Most used languages"/>
+[![](https://raw.githubusercontent.com/DanubiaPereira/DanubiaPereria/main/profile-summary-card-output/dracula/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+[![](https://raw.githubusercontent.com/DanubiaPereira/DanubiaPereria/main/profile-summary-card-output/dracula/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/DanubiaPereira/DanubiaPereria/main/profile-summary-card-output/dracula/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+[![](https://raw.githubusercontent.com/DanubiaPereira/DanubiaPereria/main/profile-summary-card-output/dracula/3-stats.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/DanubiaPereira/DanubiaPereria/main/profile-summary-card-output/dracula/4-productive-time.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 </p>
 
 <!-- Activity Graph (externo; se usar versão estática, troque para assets/activity-graph.svg) -->
