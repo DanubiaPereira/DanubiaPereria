@@ -1,9 +1,11 @@
-name: Generate Snake
+name: Generate Snake (neon)
 on:
-  schedule: [{ cron: "0 0 * * *" }]
+  schedule: [{ cron: "0 0 * * *" }]   # diário
   workflow_dispatch:
+
 permissions:
   contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,8 +13,10 @@ jobs:
       - uses: Platane/snk@v3
         with:
           github_user_name: DanubiaPereira
+          # versões dark e light com paleta neon
           outputs: |
-            dist/snake.svg
+            dist/snake.svg?palette=github-dark&color_snake=%239f7aea&color_dots=%233b3a4e,%235a5f7a,%23bd93f9,%23ff79c6,%2350fa7b
+            dist/snake-light.svg?palette=github-light&color_snake=%239f7aea&color_dots=%23cfd3e1,%2396a0c8,%23bd93f9,%23ff79c6,%2350fa7b
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
