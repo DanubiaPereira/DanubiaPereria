@@ -1,15 +1,29 @@
+# .github/workflows/summary-cards.yml
 name: Profile Summary Cards
 on:
-  schedule: [{ cron: "0 0 * * *" }]   # Atualiza 1x ao dia (meia-noite UTC)
-  workflow_dispatch:                   # Permite rodar manualmente
+  schedule: [{ cron: "0 0 * * *" }]   # diário
+  workflow_dispatch:
+
+permissions:
+  contents: write                     # permite commitar no repositório
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: vn7n24fzkq/github-profile-summary-cards@release
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0              # evita non-fast-forward
+
+      - name: Generate cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: DanubiaPereira
-          THEME: dracula
+          BRANCH_NAME: main           # branch onde salvar
+          AUTO_PUSH: true             # o próprio action faz o commit/push
+          EXCLUDE: ""                 # opcional
+          # (Sem THEME, para evitar o warning. O tema padrão costuma ser 'dracula';
+          #  se a sua saída for criada em outra pasta, basta apontar o README para ela.)
