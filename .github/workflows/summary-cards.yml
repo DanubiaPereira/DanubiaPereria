@@ -1,0 +1,15 @@
+name: Profile Summary Cards
+on:
+  schedule: [{ cron: "0 0 * * *" }]   # Atualiza 1x ao dia (meia-noite UTC)
+  workflow_dispatch:                   # Permite rodar manualmente
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: DanubiaPereira
+          THEME: dracula
