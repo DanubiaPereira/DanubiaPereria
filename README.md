@@ -65,7 +65,7 @@ Busco oportunidades **estágio/júnior** para colaborar, aprender e gerar valor.
 
 ### 🏆 Troféus
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=DanubiaPereira&theme=onedark&no-bg=true&no-frame=true&row=1&column=6" alt="GitHub Trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=DanubiaPereira&theme=dracula&no-bg=true&no-frame=true&row=1&column=6" alt="GitHub Trophies"/>
 </p>
 
 ---
