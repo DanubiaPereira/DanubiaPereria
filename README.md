@@ -55,7 +55,7 @@ Busco oportunidades **estágio/júnior** para colaborar, aprender e gerar valor.
 
 <!-- Activity Graph local (só aparece se você rodou a Action estática e criou assets/activity-graph.svg) -->
 <!-- Se não tiver, apague esta linha ou troque pelo endpoint externo -->
-![Activity Graph](./assets/activity-graph.svg)
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=DanubiaPereira&theme=react-dark&hide_border=true&area=true)
 
 <!-- Snake (fica em outro branch, então aqui precisa ser absoluto mesmo) -->
 <p align="center">
@@ -71,17 +71,19 @@ Busco oportunidades **estágio/júnior** para colaborar, aprender e gerar valor.
 ---
 
 ### 🚀 Meus Principais Projetos
+
 <p align="center">
   <a href="https://github.com/DanubiaPereira/analise-avancada-ecommerce-sql">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=DanubiaPereira&repo=analise-avancada-ecommerce-sql&theme=dracula&hide_border=true" alt="E-commerce SQL" />
-  </a>
-  <a href="https://github.com/DanubiaPereira/analise-netflix-sql">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=DanubiaPereira&repo=analise-netflix-sql&theme=dracula&hide_border=true" alt="Netflix SQL" />
+    <img width="440" src="https://github-readme-stats.vercel.app/api/pin/?username=DanubiaPereira&repo=analise-avancada-ecommerce-sql&theme=dracula&hide_border=true" alt="E-commerce SQL"/>
+  </a><!-- --><a href="https://github.com/DanubiaPereira/analise-netflix-sql">
+    <img width="440" src="https://github-readme-stats.vercel.app/api/pin/?username=DanubiaPereira&repo=analise-netflix-sql&theme=dracula&hide_border=true" alt="Netflix SQL"/>
   </a>
 </p>
 
+
 - **📊 Análise Avançada de E-commerce** — SQL com CTEs e Window Functions para cohorts, funil e RFM.  
 - **🎬 Análise Exploratória da Netflix** — insights de gêneros, países e evolução temporal com SQL/Python.
+
 
 ---
 
