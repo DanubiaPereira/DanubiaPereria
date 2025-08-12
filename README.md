@@ -1,10 +1,10 @@
 <h1 align="center">👋 Olá, eu sou a Danubia Pereira!</h1>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/danubiapereira-33486296/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:danubia.pereira.silv@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
-  <a href="https://wa.me/5535998629173" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/></a>
-  <img src="https://komarev.com/ghpvc/?username=DanubiaPereira&label=Profile%20views&color=9f7aea&style=for-the-badge" alt="Profile views"/>
+  <a href="https://www.linkedin.com/in/danubiapereira-33486296/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=plastic&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:danubia.pereira.silv@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=plastic&logo=gmail&logoColor=white" alt="Gmail"/></a>
+  <a href="https://wa.me/5535998629173" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=plastic&logo=whatsapp&logoColor=white" alt="WhatsApp"/></a>
+  <img src="https://komarev.com/ghpvc/?username=DanubiaPereira&label=Profile%20views&color=9f7aea&style=plastic" alt="Profile views"/>
 </p>
 
 <p align="center">
@@ -20,14 +20,25 @@ Busco oportunidades **estágio/júnior** para colaborar, aprender e gerar valor.
 
 ---
 
+### 🧰 Stack & Ferramentas
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=plastic&logo=python&logoColor=white" alt="Python" style="height: 30px;"/>
+  <img src="https://img.shields.io/badge/SQL-4D4D4D?style=plastic" alt="SQL" style="height: 30px;"/>
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=plastic&logo=powerbi&logoColor=000" alt="Power BI" style="height: 30px;"/>
+  <br>
+  <img src="https://img.shields.io/badge/Git-F05032?style=plastic&logo=git&logoColor=white" alt="Git" style="height: 30px;"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=plastic&logo=github&logoColor=white" alt="GitHub" style="height: 30px;"/>
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=plastic&logo=visualstudiocode&logoColor=white" alt="VSCode" style="height: 30px;"/>
+</p>
+
+---
+
 ### 🚀 Meus Principais Projetos
 
 <p align="center">
-  <a href="https://github.com/DanubiaPereira/analise-avancada-ecommerce-sql">
-    <img width="440" src="https://github-readme-stats.vercel.app/api/pin/?username=DanubiaPereira&repo=analise-avancada-ecommerce-sql&theme=dracula&hide_border=true" alt="E-commerce SQL"/>
-  </a><a href="https://github.com/DanubiaPereira/analise-netflix-sql">
-    <img width="440" src="https://github-readme-stats.vercel.app/api/pin/?username=DanubiaPereira&repo=analise-netflix-sql&theme=dracula&hide_border=true" alt="Netflix SQL"/>
-  </a>
+  <a href="https://github.com/DanubiaPereira/analise-avancada-ecommerce-sql"><img width="440" src="https://github-readme-stats.vercel.app/api/pin/?username=DanubiaPereira&repo=analise-avancada-ecommerce-sql&theme=dracula&hide_border=true" alt="E-commerce SQL"></a>
+  <a href="https://github.com/DanubiaPereira/analise-netflix-sql"><img width="440" src="https://github-readme-stats.vercel.app/api/pin/?username=DanubiaPereira&repo=analise-netflix-sql&theme=dracula&hide_border=true" alt="Netflix SQL"></a>
 </p>
 
 ---
@@ -49,18 +60,7 @@ Busco oportunidades **estágio/júnior** para colaborar, aprender e gerar valor.
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DanubiaPereira/DanubiaPereira/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
-</p>
-
----
-
-### 🧰 Stack & Ferramentas
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,pandas,postgresql,mysql,git,github,vscode,linux" alt="Skill Icons"/>
-  <br><br>
-  <img src="https://img.shields.io/badge/SQL%20(Avançado)-4D4D4D?style=for-the-badge" alt="SQL Avançado"/>
-  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=000" alt="Power BI"/>
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=fff" alt="Jupyter"/>
+  <img src="https://raw.githubusercontent.com/DanubiaPereira/DanubiaPereria/refs/heads/output/snake.svg" alt="Snake animation"/>
 </p>
 
 ---
