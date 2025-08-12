@@ -1,11 +1,11 @@
 # .github/workflows/summary-cards.yml
 name: Profile Summary Cards
 on:
-  schedule: [{ cron: "0 0 * * *" }]   # diário
+  schedule: [{ cron: "0 0 * * *" }]
   workflow_dispatch:
 
 permissions:
-  contents: write                     # permite commitar no repositório
+  contents: write         # libera push pelo GITHUB_TOKEN
 
 jobs:
   build:
@@ -14,6 +14,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0              # evita non-fast-forward
 
       - name: Generate cards
@@ -22,8 +23,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: DanubiaPereira
-          BRANCH_NAME: main           # branch onde salvar
-          AUTO_PUSH: true             # o próprio action faz o commit/push
-          EXCLUDE: ""                 # opcional
-          # (Sem THEME, para evitar o warning. O tema padrão costuma ser 'dracula';
-          #  se a sua saída for criada em outra pasta, basta apontar o README para ela.)
+          BRANCH_NAME: main           # garante branch correto
+          AUTO_PUSH: false            # NÃO deixar o action dar push (a gente faz)
+
+      - name: Commit summary cards
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: "profile-summary-card-output"
+          message: "chore: update profile summary cards"
