@@ -59,9 +59,8 @@ Busco oportunidades **estágio/júnior** para colaborar, aprender e gerar valor.
 
 <!-- Snake (fica em outro branch, então aqui precisa ser absoluto mesmo) -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DanubiaPereira/DanubiaPereira/output/snake.svg?sanitize=true" alt="Snake animation"/>
+  <img src="https://raw.githubusercontent.com/DanubiaPereira/DanubiaPereira/output/snake.svg?t=1" alt="Snake animation"/>
 </p>
-
 
 
 ### 🏆 Troféus
