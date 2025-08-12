@@ -64,8 +64,16 @@ Busco oportunidades **estágio/júnior** para colaborar, aprender e gerar valor.
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DanubiaPereira/DanubiaPereria/refs/heads/output/snake.svg" alt="Snake animation"/>
+  <picture>
+    <!-- Light -->
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/DanubiaPereira/DanubiaPereira/raw/output/snake-light.svg?t=2">
+    <!-- Dark -->
+    <source media="(prefers-color-scheme: dark)"  srcset="https://github.com/DanubiaPereira/DanubiaPereira/raw/output/snake.svg?t=2">
+    <!-- Fallback -->
+    <img src="https://github.com/DanubiaPereira/DanubiaPereira/raw/output/snake.svg?t=2" alt="Snake animation (neon)">
+  </picture>
 </p>
+
 
 ---
 
